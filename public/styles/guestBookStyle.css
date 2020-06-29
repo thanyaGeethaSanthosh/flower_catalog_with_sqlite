@@ -1,0 +1,29 @@
+.heading {
+  text-align: center;
+  color: orange;
+  font-weight: 400;
+  font-size: 40px;
+  margin-right: 50px;
+}
+
+.subHeading {
+  text-align: left;
+  color: black;
+  font-weight: 250;
+  font-size: 30px;
+  margin-left: 70px;
+}
+
+.allComments {
+  width: 90%;
+  margin-left: 70px;
+}
+
+.commentBox {
+  margin-left: 10%;
+  margin-top: 4px;
+  width: 80%;
+  padding: 4px;
+  border: 2px solid rgb(73, 97, 73);
+  background-color: rgb(190, 207, 190);
+}

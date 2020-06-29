@@ -1,20 +1,27 @@
 {
-  "name": "flower_catalog_with_sqlite",
+  "name": "flower-catalog-lazyhackerthani",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "export DATA_STORE=$(pwd)/test/resources/testComments.json; nyc mocha",
+    "start": "export DATA_STORE=$(pwd)/assets/comments.json; nodemon httpServer.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lazyhackerthani/flower_catalog_with_sqlite.git"
+    "url": "git+https://github.com/step-batch-7/flower-catalog-lazyhackerthani.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lazyhackerthani/flower_catalog_with_sqlite/issues"
+    "url": "https://github.com/step-batch-7/flower-catalog-lazyhackerthani/issues"
   },
-  "homepage": "https://github.com/lazyhackerthani/flower_catalog_with_sqlite#readme"
+  "homepage": "https://github.com/step-batch-7/flower-catalog-lazyhackerthani#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "dependencies": {
+    "supertest": "^4.0.2"
+  }
 }
